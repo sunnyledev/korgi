@@ -2,16 +2,7 @@ import React, { useState } from 'react';
 import {Link, Redirect} from 'react-router-dom'
 import './signin-style.css';
 import dog from './dog.png'
-
-const inputStyle = {
-  borderRadius: '500px',
-  width: '70%',
-  padding: '0 15px',
-  height: '50px',
-  margin: '15px 0',
-  borderWidth: 0,
-  backgroundColor: '#f5f7fb'
-};
+import cover from "./running.png";
 
 function SignInSide(props) {
   // Hook States
@@ -42,14 +33,15 @@ function SignInSide(props) {
       <div className="signin-outer">
         <div className="image-div">
           <div id="theimage"/>
+          {/*<img id="imagy" src={cover} alt=""/>*/}
         </div>
         <div className='signin-div'>
           <div id="image-outer">
             <img className='pup-image' src={dog} alt=''/>
           </div>
-          <h4 style={{color: 'black', width: '100%', textAlign: 'center', marginBottom: '40px'}}>Welcome to Korgi !</h4>
-          <input style={inputStyle} type="email"  placeholder="Email"/>
-          <input style={inputStyle} type="password"  placeholder="Password"/>
+          <h4 className="welcome-text">Welcome to Korgi !</h4>
+          <input className="input-style" type="email"  placeholder="Email"/>
+          <input className="input-style" type="password"  placeholder="Password"/>
           <div style={{width: '70%', display: 'flex', flexFlow: 'row wrap', alignItems: 'center', marginBottom: '50px'}}>
             <input className="checkbox-input" type="checkbox" id="remember-me"/>
             <label htmlFor="remember-me">Remember me</label>
