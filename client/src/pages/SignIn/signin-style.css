@@ -29,16 +29,9 @@
     padding: 20px;
 }
 
-#imagy {
-    width: 70%;
-    padding-top: 0;
-    padding-left: 5%;
-}
-
 #theimage {
     width: 80%;
     background-image: url("running.png");
-    overflow: scroll;
     height: 0;
     padding-top: 60%;
     background-size: cover;

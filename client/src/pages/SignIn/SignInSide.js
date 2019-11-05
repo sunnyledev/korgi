@@ -50,7 +50,7 @@ function SignInSide(props) {
           <div className="divider-div"/>
           <h6>Just in case...</h6>
           <h5 style={{marginTop: '30px'}}>Don't have an account? <Link to={'/sign-up'}>Create one</Link></h5>
-          <p style={{fontSize: '0.7em', color: '#a9a9a9', bottom: 0, position: 'sticky'}}>Copyright © Korgi Inc 2019</p>
+          <p style={{fontSize: '0.7em', color: '#a9a9a9', bottom: 0, position: 'absolute'}}>Copyright © Korgi Inc 2019</p>
         </div>
       </div>
   );

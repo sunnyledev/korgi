@@ -4,7 +4,7 @@ import Discover from "./pages/Discover";
 import About from "./pages/About";
 import Search from "./pages/Search";
 import SignInSide from "./pages/SignIn/SignInSide";
-import SignUp from "./pages/SignUp";
+import SignUp from "./pages/SignUp/SignUp";
 import UserPage from "./pages/UserPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
