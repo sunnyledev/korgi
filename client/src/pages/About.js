@@ -8,7 +8,7 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://www.iconspng.com/images/contour-map/contour-map.jpg">
+      <Hero>
         <h1 style={{color:'#FFD402', fontWeight: '700', letterSpacing: '1.25px'}}>Korgi</h1>
         <h2>Though she be but little, she is fearless</h2>
       </Hero>
