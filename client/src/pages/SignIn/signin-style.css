@@ -129,7 +129,7 @@ body, #root {
 
 .input-style {
     border-radius: 500px;
-    width: 70%;
+    /*width: 85%;*/
     padding: 0 15px;
     height: 50px;
     margin: 15px 0;
@@ -137,8 +137,11 @@ body, #root {
     background-color: #f5f7fb;
 }
 
+.eighty-five-width {
+    width: 85%;
+}
+
 .remember-me-forgot-pass-div {
-    width: 70%;
     display: flex;
     flex-flow: row wrap;
     align-items: center;

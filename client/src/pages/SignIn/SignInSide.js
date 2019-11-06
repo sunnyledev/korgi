@@ -39,9 +39,9 @@ function SignInSide(props) {
             <img className='pup-image' src={dog} alt=''/>
           </div>
           <h4 className="welcome-text">Welcome to Korgi !</h4>
-          <input className="input-style" type="email"  placeholder="Email"/>
-          <input className="input-style" type="password"  placeholder="Password"/>
-          <div className="remember-me-forgot-pass-div">
+          <input className="input-style eighty-five-width" type="email"  placeholder="Email"/>
+          <input className="input-style eighty-five-width" type="password"  placeholder="Password"/>
+          <div className="remember-me-forgot-pass-div eighty-five-width">
             <input className="checkbox-input" type="checkbox" id="remember-me"/>
             <label htmlFor="remember-me">Remember me</label>
             <Link to='/forgot-password'>Forgot password?</Link>

@@ -10,7 +10,7 @@ function f() {
 function Navbar() {
     return (
         <nav className="navbar">
-            <img id="remove-image" src={track} alt="Main page"/>
+            <img id="home-image" src={track} alt="Main page"/>
             <ul id="menu">
                 <li>
                     <Link to="/discover"
@@ -42,16 +42,16 @@ function Navbar() {
                         User Page
                     </Link>
                 </li>
-                <li>
-                    <Link to="/login"
-                          className={
+                    <li>
+                        <Link to="/login"
+                              className={
                               window.location.pathname === "/" || window.location.pathname === "/login"
                                   ? "nav-link active"
-                                  : "nav-link"
-                          }>
-                        Log In
-                    </Link>
-                </li>
+                                  : "nav-link"}
+                        >
+                            Log In
+                        </Link>
+                    </li>
             </ul>
             {/*<AppBar position="static">*/}
             {/*  <Toolbar>*/}

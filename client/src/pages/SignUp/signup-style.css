@@ -8,3 +8,15 @@
     width: 100vw;
     overflow: auto;
 }
+
+.flex-grow-width {
+    /*flex-grow: 1;*/
+    width: 31%;
+}
+
+.date-div {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: stretch;*/
+}
