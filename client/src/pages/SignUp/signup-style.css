@@ -9,14 +9,41 @@
     overflow: auto;
 }
 
-.flex-grow-width {
-    /*flex-grow: 1;*/
-    width: 31%;
-}
-
-.date-div {
-    width: 85%;
+.full-name {
     display: flex;
     justify-content: space-between;
-    /*align-items: stretch;*/
 }
+
+.sign-up:hover {
+    flex-grow: 2;
+    margin-left: 20px;
+}
+
+.month {
+    border-width: 0;
+    background-color: #f5f7fb;
+    height: 50px;
+    border-radius: 500px;
+}
+
+@media only screen and (max-width: 700px) {
+    .remember-me-forgot-pass-div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sign-up {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .sign-up:hover {
+        transform: translateY(5px);
+        margin-left: 0;
+        flex-grow: 0;
+    }
+}
+
+
+
+
+

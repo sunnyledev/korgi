@@ -32,7 +32,6 @@ function SignInSide(props) {
       <div className="signin-outer">
         <div className="image-div">
           <div id="theimage"/>
-          {/*<img id="imagy" src={cover} alt=""/>*/}
         </div>
         <div className='signin-div'>
           <div id="image-outer">
@@ -46,7 +45,7 @@ function SignInSide(props) {
             <label htmlFor="remember-me">Remember me</label>
             <Link to='/forgot-password'>Forgot password?</Link>
           </div>
-          <button className="sign-in">Sign In</button>
+          <button className="button sign-in">Sign In</button>
           <div className="divider-div"/>
           <h6>Just in case...</h6>
           <h5 style={{marginTop: '30px'}}>Don't have an account? <Link to={'/sign-up'}>Create one</Link></h5>

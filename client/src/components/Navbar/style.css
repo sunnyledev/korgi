@@ -42,7 +42,7 @@ ul#menu > li:last-child {
   justify-content: flex-end;
 }
 
-a {
+ul#menu > li > a {
   color: black;
 }
 

@@ -35,7 +35,7 @@
     }
     33% {
         opacity: 60%;
-        transform: translate(-3px, -4px);
+        transform: translate(-2px, -4px);
     }
     66% {
         opacity: 100%;
