@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import API from "../utils/API";
-import Card from "../components/Card";
-import Alert from "../components/Alert";
+import API from "../../utils/API";
+import Card from "../../components/Card";
+import Alert from "../../components/Alert";
+import "./explore-style.css";
 
 class Discover extends Component {
   state = {
@@ -51,7 +52,7 @@ class Discover extends Component {
 
   render() {
     return (
-      <div>
+      <div className="friends-outer">
         <h1 className="text-center">Make New Friends</h1>
         <h3 className="text-center">
           Thumbs up on any pups you'd like to meet!

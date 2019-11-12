@@ -42,10 +42,29 @@ ul#menu > li:last-child {
   justify-content: flex-end;
 }
 
+.text-danger {
+  color: #ff414b;
+  font-size: 0.7em;
+  width: 96%;
+  margin: 2px 0 0;
+}
+
+.input-danger {
+  background-color: rgba(255, 49, 57, 0.19);
+}
+
 ul#menu > li > a {
   color: black;
 }
 
 .nav-link, .active {
   font-size: 1.1em;
+}
+
+@media only screen and (max-width: 450px) {
+  #menu { font-size: 1em; }
+}
+
+@media only screen and (max-width: 360px) {
+  #menu { font-size: 0.9em; }
 }

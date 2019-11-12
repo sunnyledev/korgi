@@ -13,13 +13,13 @@ function Navbar() {
             <img id="home-image" src={track} alt="Main page"/>
             <ul id="menu">
                 <li>
-                    <Link to="/discover"
+                    <Link to="/"
                           className={
-                              window.location.pathname === "/" || window.location.pathname === "/discover"
+                              window.location.pathname === "/" || window.location.pathname === "/"
                                   ? "nav-link active"
                                   : "nav-link"
                           }>
-                        Explore
+                        Home
                     </Link>
                 </li>
                 <li>

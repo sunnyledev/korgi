@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Discover from "./pages/Discover";
-import About from "./pages/About";
+import Discover from "./pages/Explore/Discover";
+import Home from "./pages/Home/Home";
 import Search from "./pages/Search";
 import SignInSide from "./pages/SignIn/SignInSide";
 import SignUp from "./pages/SignUp/SignUp";
@@ -17,7 +17,6 @@ function App() {
       <div style={{height: "100%"}}>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={About} />
         {/*  <Route exact path="/about" component={About} />*/}
           <Route exact path="/user-page" component={UserPage} />
           <Route exact path="/discover" component={Discover} />

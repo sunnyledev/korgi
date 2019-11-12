@@ -12,11 +12,12 @@
 .full-name {
     display: flex;
     justify-content: space-between;
+    color: rgba(80, 135, 114, 0.51);
 }
 
-.sign-up:hover {
-    flex-grow: 2;
-    margin-left: 20px;
+input[type="date"]::before {
+    color: #7f7f7f;
+    content: attr(placeholder) "Birthday\00a0" !important;
 }
 
 .month {
@@ -30,16 +31,6 @@
     .remember-me-forgot-pass-div {
         flex-direction: column;
         align-items: flex-start;
-    }
-    .sign-up {
-        width: 100%;
-        margin-top: 15px;
-    }
-
-    .sign-up:hover {
-        transform: translateY(5px);
-        margin-left: 0;
-        flex-grow: 0;
     }
 }
 
